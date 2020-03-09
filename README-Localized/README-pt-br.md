@@ -1,11 +1,12 @@
 ---
 page_type: sample
 products:
-- office-365
+- office-365 
 - office-outlook
 - ms-graph
 languages:
 - swift
+description: "Esta amostra usa a Biblioteca de Clientes do Microsoft Graph para trabalhar com os dados e a Biblioteca de Autenticação do Active Directory (MSAL) para autenticação das contas corporativas ou de estudante de usuários do Office 365."
 extensions:
   contentType: samples
   technologies:
@@ -48,7 +49,7 @@ Esse exemplo requer o seguinte:
 
 ## Registrar e configurar o aplicativo
 
-1. Abra um navegador e navegue até o [centro de administração do Azure Active Directory](https://aad.portal.azure.com) e faça logon usando uma **conta pessoal** (também conhecida como: Conta da Microsoft) **Conta Corporativa ou de Estudante**.
+1. Abra um navegador e navegue até o [centro de administração do Azure Active Directory](https://aad.portal.azure.com) e faça logon, usando uma **conta pessoal** (também conhecida como: Conta Microsoft) **Conta Corporativa ou de Estudante**.
 
 1. Selecione **Azure Active Directory** na navegação à esquerda e, em seguida, selecione **Registros de aplicativos** em **Gerenciar**.
 
@@ -56,7 +57,7 @@ Esse exemplo requer o seguinte:
 
     - Defina o **Nome** para `Exemplo de Trechos Swift`.
     - Defina **Tipos de contas com suporte** para **Contas em qualquer diretório organizacional e contas pessoais da Microsoft**.
-    - Em URI de Redirecionamento, altere a lista suspensa para Cliente público (celular & desktop), e defina o valor como `msauth.com.microsoft.Graph-iOS-Swift-Snippets://auth`.
+    - Em **URI de Redirecionamento**, altere a lista suspensa para **Cliente público (celular e desktop)**, e defina o valor como `msauth.com.microsoft.Graph-iOS-Swift-Snippets://auth`.
 
 1. Escolha **Registrar**. Na página **Exemplo de Trechos Swift**, copie o valor da **ID do aplicativo (cliente)** e salve-o, você precisará dele na próxima etapa.
 
@@ -89,7 +90,7 @@ Após ser iniciado, o aplicativo exibe uma lista de tarefas comuns de usuários.
 - Tarefas que só são aplicáveis a contas comerciais ou escolares, como receber a foto da conta e o gerenciador do usuário.
 - Tarefas que só são aplicáveis a contas comerciais ou escolares com permissões administrativas, como receber membros do grupo ou criar novas contas de usuário.
 
-Escolha a tarefa que você deseja realizar e clique nela para executar. Lembre-se de que se você fizer logon com uma conta que não tem permissões aplicáveis para as tarefas selecionadas, elas falharão. Por exemplo, se você tentar executar um determinado trecho de código, como obter todos os grupos de um locatário, de uma conta que não tem privilégios de administrador na organização, a operação falhará. Ou, se você entrar com uma conta pessoal do e tentar obter o gerenciador do usuário conectado, ele falhará.
+Escolha a tarefa que você deseja realizar e clique nela para executar. Lembre-se de que se você fizer logon com uma conta que não tem permissões aplicáveis para as tarefas selecionadas, elas falharão. Por exemplo, se você tentar executar um determinado trecho de código, como obter todos os grupos de um locatário, de uma conta que não tem privilégios de administrador na organização, a operação falhará. Ou, se você entrar com uma conta pessoal e tentar obter o gerenciador do usuário conectado, ele falhará.
 
 ## Colaboração
 

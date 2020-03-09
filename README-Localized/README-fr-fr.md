@@ -1,11 +1,12 @@
 ---
 page_type: sample
 products:
-- office-365
+- office-365 
 - office-outlook
 - ms-graph
 languages:
 - swift
+description: "Cet exemple utilise la Bibliothèque de client Microsoft Graph pour travailler avec les données et utilise la Bibliothèque d’authentification Active Directory (ALAL) pour l’authentification des compte Office 365 professionnels ou scolaires des utilisateurs."
 extensions:
   contentType: samples
   technologies:

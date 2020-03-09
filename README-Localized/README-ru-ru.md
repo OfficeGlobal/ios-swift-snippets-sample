@@ -1,11 +1,12 @@
 ---
 page_type: sample
 products:
-- office-365
+- office-365 
 - office-outlook
 - ms-graph
 languages:
 - swift
+description: "В этом примере для работы с данными используется клиентская библиотека Microsoft Graph, а для аутентификации рабочих или учебных учетных записей Office 365 — Библиотека проверки подлинности Active Directory (ADAL)"
 extensions:
   contentType: samples
   technologies:
@@ -95,7 +96,7 @@ extensions:
 
 Если вы хотите добавить код в этот пример, просмотрите статью [CONTRIBUTING.MD](/CONTRIBUTING.md).
 
-Этот проект соответствует [правилам поведения Майкрософт, касающимся обращения с открытым кодом](https://opensource.microsoft.com/codeofconduct/). Дополнительные сведения см. в разделе [Часто задаваемые вопросы о правилах поведения](https://opensource.microsoft.com/codeofconduct/faq/). Если у вас возникли вопросы или замечания, напишите нам по адресу [opencode@microsoft.com](mailto:opencode@microsoft.com).
+Этот проект соответствует [Правилам поведения разработчиков открытого кода Майкрософт](https://opensource.microsoft.com/codeofconduct/). Дополнительные сведения см. в разделе [Часто задаваемые вопросы о правилах поведения](https://opensource.microsoft.com/codeofconduct/faq/). Если у вас возникли вопросы или замечания, напишите нам по адресу [opencode@microsoft.com](mailto:opencode@microsoft.com).
 
 ## Авторское право
 

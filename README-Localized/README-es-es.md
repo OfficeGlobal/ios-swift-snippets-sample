@@ -1,11 +1,12 @@
 ---
 page_type: sample
 products:
-- office-365
+- office-365 
 - office-outlook
 - ms-graph
 languages:
 - swift
+description: "Este ejemplo utiliza la biblioteca cliente de Microsoft Graph para trabajar con los datos, y la biblioteca de autenticación de Active Directory (ADAL) para la autenticación de las cuentas profesionales o educativas de Office 365 de los usuarios."
 extensions:
   contentType: samples
   technologies:
@@ -93,7 +94,7 @@ Seleccione la tarea que desea realizar y haga clic en ella para ejecutarla. Teng
 
 ## Colaboradores
 
-Si le gustaría contribuir a este ejemplo, vea [CONTRIBUTING.MD](/CONTRIBUTING.md).
+Si quiere hacer su aportación a este ejemplo, vea [CONTRIBUTING.MD](/CONTRIBUTING.md).
 
 Este proyecto ha adoptado el [Código de conducta de código abierto de Microsoft](https://opensource.microsoft.com/codeofconduct/). Para obtener más información, vea [Preguntas frecuentes sobre el código de conducta](https://opensource.microsoft.com/codeofconduct/faq/) o póngase en contacto con [opencode@microsoft.com](mailto:opencode@microsoft.com) si tiene otras preguntas o comentarios.
 
